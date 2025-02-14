@@ -1,0 +1,22 @@
+.container-corpo{
+    min-height: 100vh;
+    background-image: radial-gradient(#ff00aa  , #f83333, #ff0000   );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+
+    border-radius: 150px;
+    width: 40%;
+
+}
+
+.texto{
+    color:aliceblue
+}
+.paragrafo{
+    color: aliceblue;
+}
