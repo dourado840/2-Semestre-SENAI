@@ -1,7 +1,9 @@
-import{ useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Conversao from './assets/components/Conversao'
 import Conversao2 from './assets/components/Conversao2'
+import Estados from './assets/components/Estados'
+import Aviso from './assets/components/Aviso'
 
 function App() {
   const [usuario, setUsuario] = useState("Juca")
@@ -29,17 +31,11 @@ function App() {
   }
   return (
     <>
+    <Aviso/>
     <Conversao/>
     <Conversao2/>
+    <Estados/>
     
-    <h1>ESTADOS</h1>
-    Nome: {nome}
-    <div>
-      Usuário: {usuario} <br />
-      Senha: {senha}
-    </div>
-    <button onClick={lerNome}>Trocar Nome</button>
-    <button onClick={lerUsuario}>Trocar Usuário</button>
     </>
   )
 }
