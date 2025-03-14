@@ -5,7 +5,7 @@ function Conversao(){
     const[real, setReal] = useState(0)
     const[dolar, setDolar] = useState(0)
 
-function convrterRealPraDolar(){
+function converterRealPraDolar(){
     let entrada = Number(prompt("R$: "))
     setDolar((entrada * 5.81).toFixed(2))
     setReal(entrada)
@@ -13,7 +13,7 @@ function convrterRealPraDolar(){
     return (
         <div className="container-conversao">
             <h2>Real ➡️ Dolar</h2>
-            <button onClick={convrterRealPraDolar}>Converter</button>
+            <button onClick={converterRealPraDolar}>Converter</button>
             <p>
                 Valor original: R${real}
             </p>

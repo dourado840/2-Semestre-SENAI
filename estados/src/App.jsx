@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './App.css'
+
+import CalcularImc from './assets/components/CalcularImc'
+import AnoBissexto from './assets/components/AnoBissexto'
 import Conversao from './assets/components/Conversao'
 import Conversao2 from './assets/components/Conversao2'
 import Estados from './assets/components/Estados'
@@ -31,6 +34,8 @@ function App() {
   }
   return (
     <>
+    <CalcularImc/>
+    <AnoBissexto/>
     <Aviso/>
     <Conversao/>
     <Conversao2/>
