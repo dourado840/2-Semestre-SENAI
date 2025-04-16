@@ -34,9 +34,6 @@ function App() {
         <h2>Painel de Orações</h2>
         <p>Escolha uma Oração!</p>
 
-        <div>
-          <p>{oracao}</p>
-        </div>
 
         <button onClick={bt1}>Oração 1</button>
         <button onClick={bt2}>Oração 2</button>
@@ -44,6 +41,9 @@ function App() {
         <button onClick={bt4}>Oração 4</button>
         <button onClick={bt5}>Oração 5</button>
       </div>
+        <div>
+          <p>{oracao}</p>
+        </div>
     </>
   )
 }
